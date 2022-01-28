@@ -211,4 +211,4 @@ github repo
 ## Authors :black_nib:
 
 * __Amos Mwongela Gabriel__ - <[](https://github.com/cm-amos)>
-* __Bryan__ - <[](https://gihtub.com/brianbryank)>
+* __Bryan Bryabk__ - <[](https://gihtub.com/brianbryank)>
