@@ -1,0 +1,11 @@
+footer{
+background-color:white;
+height:60px;
+bottom:0px;
+width:100%;
+position:fixed;
+border-top: 1px #CCCCCC;
+}
+p{
+text-align: center
+}
