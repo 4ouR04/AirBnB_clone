@@ -274,5 +274,5 @@ $ python3 unittest -m tests/test_console.py
 ```
 
 ## Authors :black_nib:
-* **Amos Mwongela Gabriele** <[cm-amos](https://github.com/cm-amos)>
-* **brianbryank** <[brianbryank](https://github.com/brianbryank)>
+* **Amos Mwongela Gabriel** <[cm-amos](https://github.com/cm-amos)>
+* **Brian Bryank** <[brianbryank](https://github.com/brianbryank)>
