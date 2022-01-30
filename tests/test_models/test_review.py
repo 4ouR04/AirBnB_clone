@@ -1,4 +1,38 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
+"""Test Review"""
+import unittest
+from models.base_model import BaseModel
+from models.city import City
+from models.place import Place
+from models.amenity import Amenity
+from models.state import State
+from models.review import Review
+from models.user import User
+
+
+class Testreview(unittest.TestCase):
+    """unit test"""
+    def test_class(self):
+        rev1 = Review()
+        self.assertEqual(rev1.__class__.__name__, "Review")
+
+    def test_father(self):
+        rev1 = Review()
+        self.assertTrue(issubclass(rev1.__class__, BaseModel))
+
+    def test_review(self):
+        """
+        Test review
+        """
+        my_review = Review()
+        self.assertTrue(hasattr(my_review, "place_id"))
+        self.assertEqual(my_review.place_id, "")
+        self.assertTrue(hasattr(my_review, "user_id"))
+        self.assertEqual(my_review.user_id, "")
+        self.assertTrue(hasattr(my_review, "text"))
+        self.assertEqual(my_review.text, "")
+=======
 """Test suite for Review class in models.review"""
 import unittest
 
@@ -28,3 +62,4 @@ class TestReview(unittest.TestCase):
         for attr in self.attr_list:
             self.assertIs(type(getattr(self.review, attr)), str)
             self.assertFalse(bool(getattr(self.review, attr)))
+>>>>>>> ab680e0da1b3fa8090fb95252d6db9d0c0e4ae7f

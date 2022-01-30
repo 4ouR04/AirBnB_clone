@@ -1,4 +1,32 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
+"""Test User"""
+import unittest
+from models.base_model import BaseModel
+from models.city import City
+from models.place import Place
+from models.amenity import Amenity
+from models.state import State
+from models.review import Review
+from models.user import User
+
+
+class Testuser(unittest.TestCase):
+    """unit test"""
+    def test_User(self):
+        """
+        Test Class Use
+        """
+        my_user = User()
+        self.assertTrue(hasattr(my_user, "first_name"))
+        self.assertEqual(my_user.first_name, "")
+        self.assertTrue(hasattr(my_user, "last_name"))
+        self.assertEqual(my_user.last_name, "")
+        self.assertTrue(hasattr(my_user, "email"))
+        self.assertEqual(my_user.email, "")
+        self.assertTrue(hasattr(my_user, "password"))
+        self.assertEqual(my_user.password, "")
+=======
 """Test suite for the User class in models.user"""
 import unittest
 from models.base_model import BaseModel
@@ -25,3 +53,4 @@ class TestUser(unittest.TestCase):
     def test_user_is_a_subclass_of_basemodel(self):
         u = User()
         self.assertTrue(issubclass(type(u), BaseModel))
+>>>>>>> ab680e0da1b3fa8090fb95252d6db9d0c0e4ae7f
